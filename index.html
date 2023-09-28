@@ -4,11 +4,68 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Student  Connect</title>
     <link rel="stylesheet" href="./Css/style.css">
+    
 </head>
 <body>
+   <header>
+      <div>
+         <button type="submit" id="Blockprint" class="primer-boton"><h1 class="Student-connects" id="Student-connects"></h1></button>
+      </div>
+   </header>
+
+      <div class="Registro" id="Registro-one">
+      <form id="register" class="Registro_e_inicio_de_sesion" method="post" autocomplete="off">
+            <label for="nombre">Nombre Completo:</label>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+    
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" required><br><br>
+    
+            <label for="telefono">Número de Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" required><br><br>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+    
+            <label for="dni">DNI:</label>
+            <input type="text" id="dni" name="dni" required><br><br>
+    
+            <label for="escuela">Institucion:</label>
+            <input type="text" id="escuela" name="escuela" required><br><br>
+    
+            <label for="partido">Localidad:</label>
+            <input type="text" id="partido" name="partido" required><br><br>
+    
+            <label for="contrasena">Contraseña:</label>
+            <input type="password" id="contrasena" name="contraseña" required><br><br>
+
+            <label>
+               <input type="checkbox" id="terminos" name="terminos" required>
+               He leído y acepto los <a href="./terminos-y-condiciones.html"> Términos y Condiciones</a>
+           </label>
+            <input type="submit" value="Guardar Datos" id="entrar" > 
+            <a href="#" id="Iniciar_sesion"><span>¿Iniciar Sesion?</span></a>
+
+
+         </form>
+           </div>
+       <div class="container_sesion" id="inicioSesionFor">
+         <h2>Iniciar Sesión</h2>
+         <form method="POST"  class="Sesion">
+             <label for="usuario">Usuario:</label>
+             <input type="text" id="usuario" name="usuario" required>
  
-    <script src="./JS/script.js"></script>
+             <label for="contrasena">Contraseña:</label>
+             <input type="password" id="contrasena" name="contrasena" required><br><br>
+             <input type="submit" value="Guardar Datos" >
+             <a href="#"><span>¿Registrarse?</span></a>
+            </form> 
+       </div>
+       
+    
+    <script src="./JS/script.js"></script> 
+    
 </body>
 </html>
