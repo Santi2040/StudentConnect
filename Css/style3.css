@@ -1,0 +1,120 @@
+a{
+    text-decoration: none;
+    color:   white;
+}
+.nav_item{
+    display: inline;
+    margin: 2%;
+}
+
+body{
+    background: #870000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #190A05, #870000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #190A05, #870000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+.titule{
+    margin-right: 2%;
+    color: white;
+}
+
+h1{
+    color: #ffffff;
+    text-align: center;
+
+}
+
+a{
+    text-decoration: none;
+    color:   white;
+}
+nav{
+    padding: 2%;
+}
+
+#encabezado{
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    margin-top: 5%;
+    padding: 2%;
+ 
+}
+
+
+.selecction{
+    border: 1px solid rgb(255, 255, 255);
+    width: 99%;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 30px;
+    padding: 2%;
+
+}
+
+p{
+    color: #ffffff;
+    text-align: center;
+}
+
+#portfolio img{
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+   text-align: center;
+   margin-left: 14%;
+    margin-top: 5%;
+
+}
+
+.Trabajos{
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    margin-top: 15%;
+    padding: 2%;
+
+}
+
+label{
+   color: #ffffff;
+}
+
+header{
+    text-align: center;
+
+}
+
+u{
+    color: #ffffff;
+}
+
+
+.final{
+    
+text-align: center;
+    color: white;
+    background: #0f0c29;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    border: 1px solid rgb(255, 255, 255);
+    margin-top: 20px;
+}
+
+.selecction2{
+    border: 1px solid rgb(255, 255, 255);
+    width: 70%;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 30px;
+    padding: 2%;
+
+}
+
+#cajatexto{
+    margin-left: 17%;
+}
+
+#submitButton{
+    margin-left: 43%;
+}
+

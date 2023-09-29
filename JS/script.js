@@ -31,8 +31,13 @@ document.getElementById("Blockprint").addEventListener("click", function() {
 document.getElementById("inicioSesionFor").style.display = "block";
 });
 
+document.getElementById("Inicio-sesion").addEventListener("click", function(){
+    window.location = "principal.html"
+    })
+
 // pagina
  document.getElementById("entrar").addEventListener("click", function(){
     window.location = "principal.html";
  })
+ 
  

@@ -24,16 +24,16 @@ nextMonthDOM.addEventListener('click', ()=>nextMonth());
 const writeMonth = (month) => {
 
     for(let i = startDay(); i>0;i--){
-        dates.innerHTML += ` <div class="calendar_date calendaritem calendar_last-days">
+        dates.innerHTML += ` <div class="calendar__date calendar__item calendar__last-days">
             ${getTotalDays(monthNumber-1)-(i-1)}
         </div>`;
     }
 
     for(let i=1; i<=getTotalDays(month); i++){
         if(i===currentDay) {
-            dates.innerHTML += ` <div class="calendar_date calendaritem calendar_today">${i}</div>`;
+            dates.innerHTML += ` <div class="calendar__date calendar__item calendar__today">${i}</div>`;
         }else{
-            dates.innerHTML += ` <div class="calendar_date calendar_item">${i}</div>`;
+            dates.innerHTML += ` <div class="calendar__date calendar__item">${i}</div>`;
         }
     }
 }
@@ -139,6 +139,7 @@ function addDeleteBtn() {
 
   return deleteBtn;
 }
+
 // reloj
 
 const $tiempo = document.querySelector('#reloj');
@@ -156,5 +157,3 @@ function digitalClock(){
 setInterval(() => {
     digitalClock()
 }, 1000);
-
-// perfil 
